@@ -1,0 +1,16 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Make sure mod_rewrite is available
+RewriteBase /
+
+# If the requested file does not exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite URLs without .html to point to the actual .html files
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.html [L]
+
+# Optional: Redirect .html requests to clean URLs (SEO friendly)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html [NC]
+RewriteRule ^ %1 [R=301,L]

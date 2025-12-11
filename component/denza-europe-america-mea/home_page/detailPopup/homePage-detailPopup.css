@@ -1,0 +1,343 @@
+@keyframes popupScrollIntoView-c8d8df85 {
+0% {
+    top: 100vh;
+}
+100% {
+    top: 0;
+}
+}
+@keyframes popupScrollOutofView-c8d8df85 {
+100% {
+    top: 100vh;
+}
+}
+.detailCard[data-v-c8d8df85] {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.detailCard .card-item[data-v-c8d8df85] {
+  position: relative;
+  width: calc((100% - 34px) / 3);
+  height: 50vw;
+  max-height: 720px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.detailCard .card-item .bgImage[data-v-c8d8df85] {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.detailCard .card-item .closeIcon[data-v-c8d8df85] {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 48px;
+  height: 48px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.detailCard .card-item .closeIcon[data-v-c8d8df85]:hover {
+  background-color: #cccccc;
+}
+.detailCard .card-item .text-content[data-v-c8d8df85] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 48px 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.44) 61.538%, rgba(0, 0, 0, 0.88) 100%);
+}
+.detailCard .card-item .text-content .card-title[data-v-c8d8df85] {
+  font-family: URW Form Expand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.detailCard .card-item .text-content .card-desc[data-v-c8d8df85] {
+  font-family: URW Form Expand;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog.popup-scrollIntoView {
+  animation: popupScrollIntoView-c8d8df85 0.3s;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog.popup-scrollOutofView {
+  animation: popupScrollOutofView-c8d8df85 0.3s;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog {
+  width: 864px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  border-radius: 16px;
+}
+@media screen and (max-width: 1440px) {
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog {
+    width: 70%;
+}
+}
+@media screen and (max-width: 1024px) {
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog {
+    width: 85%;
+}
+}
+@media screen and (max-width: 767px) {
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog {
+    width: 100%;
+}
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header {
+  margin-right: unset;
+  padding: 0;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header .el-dialog__headerbtn {
+  display: none;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header .my-header {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 32px;
+  right: 32px;
+  background-color: #eaebec;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header .my-header:hover {
+  background-color: #cccccc;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header .my-header .el-dialog__close {
+  color: #000000;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header .my-header .el-dialog__close:hover {
+  color: #000000;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body {
+  padding: 0;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popupContent-title {
+  margin-bottom: 8px;
+  font-family: URW Form Expand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgb(26, 29, 37);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popupContent-subTitle {
+  margin-bottom: 16px;
+  font-family: URW Form Expand;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgb(26, 29, 37);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popupContent-desc {
+  margin-bottom: 24px;
+  font-family: URW Form Expand;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(92, 96, 106);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper {
+  width: 100%;
+  border-radius: 16px;
+  --swiper-theme-color: rgba(245, 247, 250, 1);
+  --swiper-pagination-bullet-inactive-color: rgba(255, 255, 255, 0.33);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-wrapper {
+  width: 100%;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-wrapper .popup-swiper-slide {
+  width: 100%;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-wrapper .popup-swiper-slide picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-wrapper .popup-swiper-slide picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next,
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(245, 247, 250);
+  transition: 0.2s;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next:hover,
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev:hover {
+  background-color: rgba(245, 247, 250, 0.8);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next::after,
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev::after {
+  font-family: URW Form Expand;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next.swiper-button-disabled,
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev.swiper-button-disabled {
+  background-color: rgba(255, 255, 255, 0.33);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next {
+  right: 24px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev {
+  left: 24px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-pagination {
+  bottom: 14px;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-pagination .swiper-pagination-bullet {
+  width: 32px;
+  height: 4px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 767px) {
+.detailCard[data-v-c8d8df85] {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.detailCard .card-item[data-v-c8d8df85] {
+    width: 100%;
+    height: 556px;
+    margin-bottom: 12px;
+}
+.detailCard .card-item[data-v-c8d8df85]:last-of-type {
+    margin-bottom: unset;
+}
+.detailCard .card-item .text-content[data-v-c8d8df85] {
+    padding: 24px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.44) 61.538%, rgba(0, 0, 0, 0.88) 100%);
+}
+.detailCard .card-item .text-content .card-title[data-v-c8d8df85] {
+    font-family: URW Form Expand;
+    font-size: 22px;
+    line-height: 30px;
+}
+.detailCard .card-item .text-content .card-desc[data-v-c8d8df85] {
+    font-family: URW Form Expand;
+    font-size: 14px;
+    line-height: 22px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog {
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog {
+    padding: 16px;
+    margin-bottom: 0;
+    border-radius: 0;
+    overflow-y: scroll;
+    max-height: calc(100% - 48px);
+    padding-bottom: 0;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__header .my-header {
+    top: 16px;
+    right: 16px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body {
+    overflow-y: auto;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popupContent-title {
+    font-family: URW Form Expand;
+    font-size: 22px;
+    line-height: 30px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popupContent-subTitle {
+    font-family: URW Form Expand;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popupContent-desc {
+    font-family: URW Form Expand;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper {
+    padding-bottom: 56px;
+    border-radius: unset;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-wrapper .popup-swiper-slide picture img {
+    border-radius: 8px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next,
+  .detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    top: auto;
+    bottom: 0;
+    background-color: rgb(0, 20, 51);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next:hover,
+  .detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev:hover {
+    background-color: rgba(0, 20, 51, 0.8);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next::after,
+  .detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev::after {
+    color: #ffffff;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next.swiper-button-disabled,
+  .detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev.swiper-button-disabled {
+    background-color: rgb(194, 200, 211);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-next {
+    right: 0;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-button-prev {
+    left: unset;
+    right: 48px;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-pagination {
+    bottom: 14px;
+    left: unset;
+    transform: unset;
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-pagination .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+.detailCard[data-v-c8d8df85] .el-overlay .el-overlay-dialog .el-dialog .el-dialog__body .popup-swiper .popup-swiper-operation .popup-swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 12px;
+    border-radius: 8px;
+    background-color: #000000;
+}
+}

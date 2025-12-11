@@ -1,0 +1,303 @@
+.model-page-car-design-pc-container[data-v-1f4d2841] {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+.model-page-car-design-pc-container .swiper-container[data-v-1f4d2841] {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper[data-v-1f4d2841] {
+  width: 100%;
+  height: 100%;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide[data-v-1f4d2841] {
+  height: 100%;
+  width: calc(100% - 52px);
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 25.125%, rgba(0, 0, 0, 0.22) 62.562%, rgba(0, 0, 0, 0.44) 100%);
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper[data-v-1f4d2841] {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .title[data-v-1f4d2841] {
+  max-width: 25vw;
+  position: absolute;
+  left: 12.5vw;
+  top: 8.3333333333vw;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .desc[data-v-1f4d2841] {
+  max-width: 25vw;
+  position: absolute;
+  right: 12.5vw;
+  top: 8.3333333333vw;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper img[data-v-1f4d2841],
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper video[data-v-1f4d2841] {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .slide-btns[data-v-1f4d2841] {
+  position: absolute;
+  left: 12.5vw;
+  bottom: 9.53125vw;
+  gap: 16px;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .slide-btns a[data-v-1f4d2841] {
+  padding: 16px 24px;
+  min-width: calc(var(--rpx, 1px) * 220);
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .slide-btns a[data-v-1f4d2841]:hover {
+  border-color: rgb(42, 103, 207);
+  background: rgb(42, 103, 207);
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .slide-btns a.primary[data-v-1f4d2841] {
+  border-color: rgb(225, 225, 225);
+  background: rgb(255, 255, 255);
+  color: #000;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .slide-wrapper .slide-btns a.primary[data-v-1f4d2841]:hover {
+  border-color: rgb(42, 103, 207);
+  background: rgb(42, 103, 207);
+  color: rgb(255, 255, 255);
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-prev[data-v-1f4d2841],
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-next[data-v-1f4d2841] {
+  position: absolute;
+  top: 50%;
+  left: 2.5vw;
+  right: auto;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+  transition: color 0.2s ease-in-out;
+  z-index: 2;
+  width: 64px;
+  height: 64px;
+  transition: 0.3s ease-in-out;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-prev svg[data-v-1f4d2841],
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-next svg[data-v-1f4d2841] {
+  width: 100%;
+  height: 100%;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-prev.disabled[data-v-1f4d2841],
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-next.disabled[data-v-1f4d2841] {
+  opacity: 0;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-next[data-v-1f4d2841] {
+  right: 2.5vw;
+  left: auto;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .swiper-slide .swiper-prev[data-v-1f4d2841] {
+  transform: translateY(-50%) rotate(-180deg);
+}
+.model-page-car-design-pc-container .swiper-container .swiper-wrapper .full[data-v-1f4d2841] {
+  width: 100%;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-pagination[data-v-1f4d2841] {
+  position: absolute;
+  left: 5vw;
+  bottom: 3.6458333333vw;
+  width: auto;
+  z-index: 2;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-pagination[data-v-1f4d2841] .swiper-pagination-bullet {
+  display: inline-block;
+  width: 32px;
+  height: 4px;
+  margin-right: 4px;
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 8px;
+  opacity: 1;
+  cursor: pointer;
+}
+.model-page-car-design-pc-container .swiper-container .swiper-pagination[data-v-1f4d2841] .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 0.66);
+}.model-page-car-design-mob-container[data-v-07bd4530] {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.model-page-car-design-mob-container .content-wrap[data-v-07bd4530] {
+  width: 100%;
+  height: 100%;
+}
+.model-page-car-design-mob-container .content-wrap .content[data-v-07bd4530] {
+  position: absolute;
+  width: 100%;
+  padding: 64px 28px 0 36px;
+  z-index: 2;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 43.28%, rgba(0, 0, 0, 0) 100%);
+}
+.model-page-car-design-mob-container .content-wrap .content .title[data-v-07bd4530] {
+  color: rgb(233, 234, 237);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.model-page-car-design-mob-container .content-wrap .content .desc[data-v-07bd4530] {
+  margin-top: 8px;
+  color: rgb(245, 247, 250);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.model-page-car-design-mob-container .content-wrap .content .btns[data-v-07bd4530] {
+  margin-top: 22px;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: calc(var(--rpx, 1px) * 16);
+  gap: calc(var(--rpx, 1px) * 12);
+}
+.model-page-car-design-mob-container .content-wrap .content .btns a[data-v-07bd4530] {
+  padding: 11px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  flex: 1 0 auto;
+}
+.model-page-car-design-mob-container .content-wrap .content .btns a[data-v-07bd4530]:hover {
+  border-color: rgb(42, 103, 207);
+  background: rgb(42, 103, 207);
+}
+.model-page-car-design-mob-container .content-wrap .content .btns a.primary[data-v-07bd4530] {
+  border-color: rgb(225, 225, 225);
+  background: rgb(255, 255, 255);
+  color: rgb(26, 29, 37);
+}
+.model-page-car-design-mob-container .content-wrap .content .btns a.primary[data-v-07bd4530]:hover {
+  border-color: rgb(42, 103, 207);
+  background: rgb(42, 103, 207);
+  color: rgb(255, 255, 255);
+}
+.model-page-car-design-mob-container .content-wrap .content .btns-row[data-v-07bd4530] {
+  flex-direction: row;
+  bottom: calc(var(--rpx, 1px) * 128);
+}
+.model-page-car-design-mob-container .content-wrap img[data-v-07bd4530],
+.model-page-car-design-mob-container .content-wrap video[data-v-07bd4530] {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+.model-page-car-design-mob-container .view-more-wrap[data-v-07bd4530] {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  padding: 0 4px;
+  margin: auto;
+  width: 248px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 50px;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  background: rgba(0, 0, 0, 0.3);
+}
+.model-page-car-design-mob-container .view-more-wrap span[data-v-07bd4530] {
+  padding-left: 12px;
+  max-width: calc(100% - 48px);
+  color: rgb(245, 247, 250);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.model-page-car-design-mob-container .view-more-wrap svg[data-v-07bd4530] {
+  flex: none;
+  height: 48px;
+  width: 48px;
+  z-index: 1;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__header {
+  padding: 32px 16px 16px;
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body {
+  padding: 0;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body .drawer-content {
+  margin-top: 34px;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body .drawer-content .title {
+  padding: 0 16px;
+  color: rgb(26, 29, 37);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body .drawer-content .desc {
+  margin-top: 8px;
+  padding: 0 16px;
+  color: rgb(92, 96, 106);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body .drawer-content img,
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body .drawer-content video {
+  display: block;
+  margin-top: 16px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.model-page-car-design-mob-container[data-v-07bd4530] .drawer-modal.el-overlay .el-drawer__body :first-child {
+  margin-top: 0;
+}
+.model-page-car-design-mob-container .fixedClass[data-v-07bd4530] {
+  position: fixed;
+  bottom: 24px;
+  z-index: 9;
+}

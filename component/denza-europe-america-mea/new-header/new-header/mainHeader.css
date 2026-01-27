@@ -622,16 +622,37 @@
 .main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn[data-v-81f9d8ff] {
   margin-left: 16px;
   transition: all 0.3s;
+  display: inline-block;
+  min-width: auto;
 }
 .main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn[data-v-81f9d8ff]:last-child {
   margin-right: 0;
 }
 .main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn[data-v-81f9d8ff]:hover {
-  background: rgb(42, 103, 207);
-  border-color: rgb(42, 103, 207);
+  background: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
 }
 .main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn:hover .btn-text[data-v-81f9d8ff] {
-  color: rgb(245, 247, 250);
+  color: rgb(0, 0, 0);
+}
+.main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn.pill[data-v-81f9d8ff] {
+  border-radius: 50px;
+  padding: 12px 32px;
+  background: transparent;
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid;
+}
+.main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn.pill.light[data-v-81f9d8ff] {
+  border-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.main-header-pc-container .mainheader-pc-wrap .right-section .usuall-btn.pill.light .btn-text[data-v-81f9d8ff] {
+  color: rgb(255, 255, 255);
 }
 .main-header-pc-container .mainheader-pop[data-v-81f9d8ff] {
   position: absolute;
@@ -1115,11 +1136,12 @@
   display: block;
   width: 16px;
   height: 16px;
-  color: rgb(245, 247, 250);
+  color: rgb(255, 255, 255);
 }
 .main-header-pc-container .mainheader-pc-wrap .right-section .svg-btn[data-v-d8d21212]:first-child {
   margin-left: 0;
 }
+
 .main-header-pc-container .mainheader-pop[data-v-d8d21212] {
   position: absolute;
   left: 0;
@@ -1410,6 +1432,30 @@
   color: #fff;
   background: rgb(0, 20, 51);
 }
+.main-header-pc-container .mainheader-mob-wrap .right-section .usuall-btn.pill[data-v-d8d21212] {
+  border-radius: 50px;
+  padding: 12px 32px;
+  background: transparent;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid;
+}
+.main-header-pc-container .mainheader-mob-wrap .right-section .usuall-btn.pill.light[data-v-d8d21212] {
+  border-color: rgb(245, 247, 250);
+  color: rgb(245, 247, 250);
+}
+.main-header-pc-container .mainheader-mob-wrap .right-section .usuall-btn.pill.dark[data-v-d8d21212] {
+  border-color: rgb(0, 20, 51);
+  color: rgb(0, 20, 51);
+}
+.main-header-pc-container .mainheader-mob-wrap .right-section .usuall-btn.pill[data-v-d8d21212]:hover {
+  background: rgba(0, 20, 51, 0.05);
+  border-color: rgb(42, 103, 207);
+  color: rgb(42, 103, 207);
+}
 @keyframes headerScrollIntoView-d8d21212 {
 0% {
     transform: translateY(-100%);
@@ -1565,4 +1611,56 @@
     opacity: 0;
     z-index: -9999;
 }
+}
+
+/* FORCE BOOK NOW BUTTON - DESKTOP */
+.main-header-pc-container .right-section {
+  display: flex !important;
+  align-items: center;
+  margin-left: auto;
+}
+
+.main-header-pc-container .right-section .usuall-btn {
+  display: inline-flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* FORCE BOOK NOW BUTTON - TABLET */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .main-header-pc-container .right-section {
+    display: flex !important;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .main-header-pc-container .right-section .usuall-btn {
+    display: inline-flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+}
+
+/* FORCE BOOK NOW BUTTON - MOBILE */
+@media (max-width: 767px) {
+  .main-header-pc-container .right-section {
+    display: flex !important;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .main-header-pc-container .right-section .usuall-btn {
+    display: inline-flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    font-size: 0.875rem;
+    padding: 4px 12px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 40px;
+    border-color: white;
+  }
 }

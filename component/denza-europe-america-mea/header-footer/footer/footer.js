@@ -137,7 +137,8 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                   ], 64)) : (openBlock(), createElementBlock("a", _hoisted_16$1, toDisplayString(item.name), 1))
                 ], 10, _hoisted_15$1);
               }), 128))
-            ])
+            ]),
+
           ]),
           createBaseVNode("div", _hoisted_17$1, [
             createBaseVNode("ul", null, [
@@ -160,6 +161,30 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                         alt: ""
                       }, null, 8, _hoisted_20$1)
                     ], 2)) : createCommentVNode("", true)
+                  ])
+                ]);
+              }), 128)),
+              // Denza DNA link on PC right side
+              ((_a = _ctx.dataForm) == null ? void 0 : _a.dnaLink) ? (openBlock(), createElementBlock("li", {
+                key: "dna-link",
+                class: "dna-link",
+                onClick: ($event) => handleClickJump("", { name: "Denza DNA", url: (_a = _ctx.dataForm) == null ? void 0 : _a.dnaLink })
+              }, [
+                createBaseVNode("a", null, "Denza DNA", 1)
+              ], 8)) : createCommentVNode("", true),
+              // Social icons on the right (PC)
+              (openBlock(true), createElementBlock(Fragment, null, renderList(((_a = _ctx.dataForm) == null ? void 0 : _a.socialLinks) || [], (sitem, sidx) => {
+                return openBlock(), createElementBlock("li", {
+                  key: "social-right" + sidx,
+                  class: "social-item"
+                }, [
+                  createBaseVNode("div", _hoisted_18$1, [
+                    createBaseVNode("img", {
+                      class: "img-icon lazyload",
+                      "data-src": sitem.icon,
+                      onClick: ($event) => goto(sitem),
+                      alt: sitem.name
+                    }, null, 8, _hoisted_19$1)
                   ])
                 ]);
               }), 128))
@@ -382,7 +407,15 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
                 }, [
                   createBaseVNode("a", null, toDisplayString(item.name), 1)
                 ], 8, _hoisted_16);
-              }), 128))
+              }), 128)),
+              // mobile: show Denza DNA in bottom links when provided
+              ((_a = _ctx.dataForm) == null ? void 0 : _a.dnaLink) ? (openBlock(), createElementBlock("li", {
+                key: "dna-link",
+                class: "link-item",
+                onClick: ($event) => handleClickJump("", { name: "Denza DNA", url: (_a = _ctx.dataForm) == null ? void 0 : _a.dnaLink })
+              }, [
+                createBaseVNode("a", null, "Denza DNA", 1)
+              ], 8)) : createCommentVNode("", true)
             ]),
             createBaseVNode("ul", _hoisted_17, [
               (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.dataForm.subLinks, (item, idx) => {
@@ -408,6 +441,22 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
                     createBaseVNode("a", null, toDisplayString(item.name), 1)
                   ])) : createCommentVNode("", true)
                 ], 64);
+              }), 128))
+            ]),
+            // mobile social icons
+            createBaseVNode("ul", { class: "social-links" }, [
+              (openBlock(true), createElementBlock(Fragment, null, renderList(((_a = _ctx.dataForm) == null ? void 0 : _a.socialLinks) || [], (item, idx) => {
+                return openBlock(), createElementBlock("li", {
+                  key: "mob-social" + idx,
+                  class: "social-item",
+                  onClick: ($event) => goto(item)
+                }, [
+                  createBaseVNode("img", {
+                    class: "lazyload",
+                    src: item.icon,
+                    alt: item.name
+                  }, null, 8)
+                ], 8);
               }), 128))
             ])
           ])

@@ -117,6 +117,42 @@
   width: 1.6666666667vw;
   height: 1.6666666667vw;
 }
+/* Social icons placed on the right */
+.footer-pc-container .footer-bottom .right ul .social-item + .social-item[data-v-9359ba26] {
+  margin-left: 0.625vw;
+}
+.footer-pc-container .footer-bottom .right ul .social-item img[data-v-9359ba26] {
+  width: 1.6666666667vw;
+  height: 1.6666666667vw;
+  cursor: pointer;
+}
+/* Denza DNA link on right */
+.footer-pc-container .footer-bottom .right ul .dna-link[data-v-9359ba26] {
+  margin-left: 1.6666666667vw;
+  display: flex;
+  align-items: center;
+}
+.footer-pc-container .footer-bottom .right ul .dna-link a[data-v-9359ba26] {
+  color: rgb(155, 161, 175);
+  font-size: 0.7291666667vw;
+  text-decoration: none;
+}
+.footer-pc-container .footer-bottom .right ul .dna-link:hover a[data-v-9359ba26] {
+  color: rgb(42, 103, 207);
+  cursor: pointer;
+}
+/* Mobile socials */
+.footer-mob-container .social-links[data-v-ce39c947] {
+  display: flex;
+  justify-content: center;
+  gap: 4.2666666667vw;
+  margin-top: 4.2666666667vw;
+}
+.footer-mob-container .social-links img[data-v-ce39c947] {
+  width: 8.5333333333vw;
+  height: 8.5333333333vw;
+}
+
 .footer-pc-container .footer-bottom .right ul .footer-icon-item .concat-popup-container[data-v-9359ba26] {
   z-index: 1001;
   background-color: #fff;

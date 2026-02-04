@@ -3,7 +3,10 @@
   height: 100vh;
   position: relative;
 }
-.home_banner_container .swiper-button-prev[data-v-23cd20b0],
+/* Special case: short banner for specific page (About Fakhro Motors) */
+.home-banner--short .home_banner_container[data-v-23cd20b0] {
+  height: 50vh;
+} .home_banner_container .swiper-button-prev[data-v-23cd20b0],
 .home_banner_container .swiper-button-next[data-v-23cd20b0] {
   width: 48px;
   height: 48px;

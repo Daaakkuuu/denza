@@ -255,3 +255,35 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
 });
 const Layout = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-23cd20b0"]]);
 mountComponents(".home-banner", Layout);
+
+// Short banner height for About Fakhro Motors page only
+try {
+  document.querySelectorAll('.home-banner').forEach(el => {
+    const dataJson = el.getAttribute('data-json');
+    let isTarget = false;
+    // Pages to apply the short banner style
+    const targetPaths = ['about-fakhro-motors.html', 'board-of-directors.html', 'booking.html', 'disclaimer.html', 'privacy-policy.html', 'terms-of-use.html', 'terms-and-conditions.html'];
+    const titleKeywords = ['About Fakhro Motors', 'Board of Directors', 'Booking', 'Disclaimer', 'Privacy Policy', 'Terms'];
+    try {
+      if (typeof window !== 'undefined' && window.location && window.location.pathname) {
+        const path = window.location.pathname.toLowerCase();
+        if (targetPaths.some(p => path.indexOf(p) !== -1)) {
+          isTarget = true;
+        }
+      }
+    } catch (e) {}
+    if (!isTarget && dataJson) {
+      try {
+        const d = JSON.parse(dataJson);
+        if (d && d.dataList && d.dataList.some(item => item.title && titleKeywords.some(k => item.title.toLowerCase().indexOf(k.toLowerCase()) !== -1))) {
+          isTarget = true;
+        }
+      } catch (e) {}
+    }
+    if (isTarget) {
+      el.classList.add('home-banner--short');
+      const container = el.querySelector('.home_banner_container');
+      if (container) container.style.height = '50vh';
+    }
+  });
+} catch (e) {}

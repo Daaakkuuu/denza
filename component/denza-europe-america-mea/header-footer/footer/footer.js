@@ -1,6 +1,6 @@
-import { jumpToLink, sendGA, mediaType, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { defineComponent, ref, watch, onBeforeUnmount, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, toDisplayString, normalizeClass, createTextVNode, createCommentVNode, createVNode, createBlock, resolveDynamicComponent, withCtx, withDirectives, vShow, Transition, computed } from "/static_material/denza/overseas-public/js/vendor.js";
-import { _export_sfc, IconClose, IconPlus, IconMinus } from "/static_material/denza/overseas-public/js/components.js";
+import { jumpToLink, sendGA, mediaType, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, ref, watch, onBeforeUnmount, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, toDisplayString, normalizeClass, createTextVNode, createCommentVNode, createVNode, createBlock, resolveDynamicComponent, withCtx, withDirectives, vShow, Transition, computed } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { _export_sfc, IconClose, IconPlus, IconMinus } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$2 = { class: "footer-pc-container" };
 const _hoisted_2$2 = { class: "footer-wrapper" };
 const _hoisted_3$2 = { class: "left" };

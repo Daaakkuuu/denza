@@ -1,5 +1,5 @@
-import { defineComponent, Swiper, Mousewheel, ref, onMounted, ScrollMagic, createElementBlock, openBlock, createCommentVNode, unref, createBaseVNode, toDisplayString, Fragment, renderList, normalizeClass, createBlock } from "/static_material/denza/overseas-public/js/vendor.js";
-import { mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, Swiper, Mousewheel, ref, onMounted, ScrollMagic, createElementBlock, openBlock, createCommentVNode, unref, createBaseVNode, toDisplayString, Fragment, renderList, normalizeClass, createBlock } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
 const _hoisted_1 = { id: "b07-section" };
 const _hoisted_2 = {
   key: 0,

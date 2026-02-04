@@ -1,5 +1,5 @@
-import { defineComponent, Swiper, Autoplay, onMounted, ref, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, normalizeClass, unref, createTextVNode, toDisplayString, createCommentVNode, normalizeStyle, createBlock } from "/static_material/denza/overseas-public/js/vendor.js";
-import { mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, Swiper, Autoplay, onMounted, ref, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, normalizeClass, unref, createTextVNode, toDisplayString, createCommentVNode, normalizeStyle, createBlock } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
 const _hoisted_1 = { id: "b02-all" };
 const _hoisted_2 = { id: "b02-section" };
 const _hoisted_3 = ["onClick"];
@@ -267,11 +267,11 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
                       }, [
                         unref(isPlay) ? (openBlock(), createElementBlock("img", {
                           key: 0,
-                          src: unref(isMob) ? unref(pauseButton) : "/static_material/tengshi/overseas/brand/img/music_pause_button_dark.png",
+                          src: unref(isMob) ? unref(pauseButton) : "https://denzabahrain.com/static_material/tengshi/overseas/brand/img/music_pause_button_dark.png",
                           alt: "Pause Button"
                         }, null, 8, _hoisted_14)) : (openBlock(), createElementBlock("img", {
                           key: 1,
-                          src: unref(isMob) ? unref(playButton) : "/static_material/tengshi/overseas/brand/img/music_play_button_dark.png",
+                          src: unref(isMob) ? unref(playButton) : "https://denzabahrain.com/static_material/tengshi/overseas/brand/img/music_play_button_dark.png",
                           alt: "Play Button"
                         }, null, 8, _hoisted_15)),
                         _cache[2] || (_cache[2] = createBaseVNode("div", { class: "wrapper right" }, [
@@ -287,7 +287,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
                         onClick: isSound
                       }, [
                         createBaseVNode("img", {
-                          src: unref(soundOn) ? "/static_material/tengshi/overseas/brand/img/icon_sound_off_dark.svg" : "/static_material/tengshi/overseas/brand/img/icon_sound_on_dark.svg",
+                          src: unref(soundOn) ? "https://denzabahrain.com/static_material/tengshi/overseas/brand/img/icon_sound_off_dark.svg" : "https://denzabahrain.com/static_material/tengshi/overseas/brand/img/icon_sound_on_dark.svg",
                           alt: "静音"
                         }, null, 8, _hoisted_16)
                       ])) : createCommentVNode("", true)

@@ -250,14 +250,14 @@
       content: "";
       width: 9.6vw;
       height: 9.6vw;
-      background: url("/static_material/tengshi/overseas/brand/svg/right.svg") center center no-repeat;
+      background: url("https://denzabahrain.com/static_material/tengshi/overseas/brand/svg/right.svg") center center no-repeat;
       background-size: 100% auto;
     }
     #b07-section .my-mob-swiper .swiper-button-prev::after {
       content: "";
       width: 9.6vw;
       height: 9.6vw;
-      background: url("/static_material/tengshi/overseas/brand/svg/left.svg") center center no-repeat;
+      background: url("https://denzabahrain.com/static_material/tengshi/overseas/brand/svg/left.svg") center center no-repeat;
       background-size: 100% auto;
     }
     .my-mob-swiper {

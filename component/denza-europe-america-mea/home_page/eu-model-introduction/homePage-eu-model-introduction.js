@@ -1,6 +1,6 @@
-import { defineComponent, ref, onMounted, Swiper, createElementBlock, openBlock, createCommentVNode, createBaseVNode, Fragment, renderList, normalizeClass, toDisplayString, unref, gsapWithCSS, ScrollTrigger, Navigation, Pagination, nextTick, onUnmounted, createVNode, computed, createBlock, resolveDynamicComponent } from "/static_material/denza/overseas-public/js/vendor.js";
-import { initSwiperTextAnim, initCardScrollAnim, sendGA, mediaType, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { _export_sfc, IconSwiperRoundedArrowLeft, IconSwiperRoundedArrowRight } from "/static_material/denza/overseas-public/js/components.js";
+import { defineComponent, ref, onMounted, Swiper, createElementBlock, openBlock, createCommentVNode, createBaseVNode, Fragment, renderList, normalizeClass, toDisplayString, unref, gsapWithCSS, ScrollTrigger, Navigation, Pagination, nextTick, onUnmounted, createVNode, computed, createBlock, resolveDynamicComponent } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { initSwiperTextAnim, initCardScrollAnim, sendGA, mediaType, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { _export_sfc, IconSwiperRoundedArrowLeft, IconSwiperRoundedArrowRight } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$2 = { class: "container" };
 const _hoisted_2$2 = {
   key: 0,

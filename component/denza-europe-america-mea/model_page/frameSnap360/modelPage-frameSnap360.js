@@ -1,9 +1,9 @@
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
-import { mediaType, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { defineComponent, createElementBlock, openBlock, Fragment, renderList, normalizeClass, computed, createBaseVNode, createCommentVNode, unref, toDisplayString, ref, watch, onMounted, onUnmounted, WebGLRenderer, Scene, AmbientLight, PerspectiveCamera, OrbitControls, MeshBasicMaterial, Mesh, BoxGeometry, Texture, ImageLoader, SRGBColorSpace, normalizeStyle, createVNode, gsapWithCSS, withDirectives, vShow, createBlock, resolveDynamicComponent } from "/static_material/denza/overseas-public/js/vendor.js";
-import { _export_sfc } from "/static_material/denza/overseas-public/js/components.js";
+import { mediaType, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, createElementBlock, openBlock, Fragment, renderList, normalizeClass, computed, createBaseVNode, createCommentVNode, unref, toDisplayString, ref, watch, onMounted, onUnmounted, WebGLRenderer, Scene, AmbientLight, PerspectiveCamera, OrbitControls, MeshBasicMaterial, Mesh, BoxGeometry, Texture, ImageLoader, SRGBColorSpace, normalizeStyle, createVNode, gsapWithCSS, withDirectives, vShow, createBlock, resolveDynamicComponent } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { _export_sfc } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$7 = { class: "wheels-component-container" };
 const _hoisted_2$6 = ["src"];
 const _sfc_main$9 = /* @__PURE__ */ defineComponent({

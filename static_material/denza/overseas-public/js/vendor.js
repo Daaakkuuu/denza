@@ -34012,7 +34012,7 @@ const useButton = (props, emit2) => {
     replacement: "link",
     version: "3.0.0",
     scope: "props",
-    ref: "https://element-plus.org/en-US/component/button.html#button-attributes"
+    ref: "https://element-plus.org/en-UShttps://denzabahrain.com/component/button.html#button-attributes"
   }, computed(() => props.type === "text"));
   const buttonGroupContext = inject(buttonGroupContextKey, void 0);
   const globalConfig2 = useGlobalConfig("button");
@@ -35457,21 +35457,21 @@ const useCheckbox = (props, slots) => {
     replacement: "value",
     version: "3.0.0",
     scope: "el-checkbox",
-    ref: "https://element-plus.org/en-US/component/checkbox.html"
+    ref: "https://element-plus.org/en-UShttps://denzabahrain.com/component/checkbox.html"
   }, computed(() => isGroup.value && isPropAbsent(props.value)));
   useDeprecated({
     from: "true-label",
     replacement: "true-value",
     version: "3.0.0",
     scope: "el-checkbox",
-    ref: "https://element-plus.org/en-US/component/checkbox.html"
+    ref: "https://element-plus.org/en-UShttps://denzabahrain.com/component/checkbox.html"
   }, computed(() => !!props.trueLabel));
   useDeprecated({
     from: "false-label",
     replacement: "false-value",
     version: "3.0.0",
     scope: "el-checkbox",
-    ref: "https://element-plus.org/en-US/component/checkbox.html"
+    ref: "https://element-plus.org/en-UShttps://denzabahrain.com/component/checkbox.html"
   }, computed(() => !!props.falseLabel));
   return {
     inputId,
@@ -37015,7 +37015,7 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent(__spreadProps(__spreadValues
       from: "the title slot",
       replacement: "the header slot",
       version: "3.0.0",
-      ref: "https://element-plus.org/en-US/component/dialog.html#slots"
+      ref: "https://element-plus.org/en-UShttps://denzabahrain.com/component/dialog.html#slots"
     }, computed(() => !!slots.title));
     const ns = useNamespace("dialog");
     const dialogRef = ref();
@@ -37200,7 +37200,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent(__spreadProps(__spreadValues
       from: "the title slot",
       replacement: "the header slot",
       version: "3.0.0",
-      ref: "https://element-plus.org/en-US/component/drawer.html#slots"
+      ref: "https://element-plus.org/en-UShttps://denzabahrain.com/component/drawer.html#slots"
     }, computed(() => !!slots.title));
     const drawerRef = ref();
     const focusStartRef = ref();

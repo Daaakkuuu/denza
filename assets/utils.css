@@ -9,42 +9,42 @@
 }
 @font-face {
   font-family: "URW Form";
-  src: url("/static_material/denza/overseas-public/font/URWForm-Medium.ttf") format("truetype");
+  src: url("https://denzabahrain.com/static_material/denza/overseas-public/font/URWForm-Medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/static_material/denza/overseas-public/font/Montserrat-Regular.ttf") format("truetype");
+  src: url("https://denzabahrain.com/static_material/denza/overseas-public/font/Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/static_material/denza/overseas-public/font/Montserrat-Medium.ttf") format("truetype");
+  src: url("https://denzabahrain.com/static_material/denza/overseas-public/font/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "URW Form Expand";
-  src: url("/static_material/denza/overseas-public/font/URWFormExpand-Regular.ttf") format("truetype");
+  src: url("https://denzabahrain.com/static_material/denza/overseas-public/font/URWFormExpand-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "URW Form Expand";
-  src: url("/static_material/denza/overseas-public/font/URWFormExpand-Medium.ttf") format("truetype");
+  src: url("https://denzabahrain.com/static_material/denza/overseas-public/font/URWFormExpand-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "URW Form Expand";
-  src: url("/static_material/denza/overseas-public/font/URWFormExpand-Bold.ttf") format("truetype");
+  src: url("https://denzabahrain.com/static_material/denza/overseas-public/font/URWFormExpand-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;

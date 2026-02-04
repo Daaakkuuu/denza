@@ -14,9 +14,9 @@ var __spreadValues = (a, b) => {
     }
   return a;
 };
-import { jumpToLink, sendGA, Request, overseaStorage, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { defineComponent, createElementBlock, openBlock, normalizeClass, createBaseVNode, toDisplayString, withDirectives, createTextVNode, vShow, createVNode, normalizeStyle, Fragment, renderList, createStaticVNode, ref, reactive, onMounted, onUnmounted, withModifiers, unref, createCommentVNode, createBlock, computed, resolveDynamicComponent } from "/static_material/denza/overseas-public/js/vendor.js";
-import { _export_sfc, iconMainheaderPlus } from "/static_material/denza/overseas-public/js/components.js";
+import { jumpToLink, sendGA, Request, overseaStorage, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, createElementBlock, openBlock, normalizeClass, createBaseVNode, toDisplayString, withDirectives, createTextVNode, vShow, createVNode, normalizeStyle, Fragment, renderList, createStaticVNode, ref, reactive, onMounted, onUnmounted, withModifiers, unref, createCommentVNode, createBlock, computed, resolveDynamicComponent } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { _export_sfc, iconMainheaderPlus } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$8 = { class: "button-explore-text" };
 const _sfc_main$8 = /* @__PURE__ */ defineComponent({
   __name: "arrow-icon",

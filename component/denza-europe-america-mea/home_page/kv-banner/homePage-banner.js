@@ -1,6 +1,6 @@
-import { defineComponent, ref, onMounted, Swiper, Navigation, Pagination, createElementBlock, openBlock, createBaseVNode, createCommentVNode, withDirectives, Fragment, renderList, unref, normalizeClass, toDisplayString, createBlock, vShow, createStaticVNode } from "/static_material/denza/overseas-public/js/vendor.js";
-import { initSwiperTextAnim, mediaType, sendGA, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { IconVideoPlay, IconVideoPause, IconMute, IconAuto, _export_sfc } from "/static_material/denza/overseas-public/js/components.js";
+import { defineComponent, ref, onMounted, Swiper, Navigation, Pagination, createElementBlock, openBlock, createBaseVNode, createCommentVNode, withDirectives, Fragment, renderList, unref, normalizeClass, toDisplayString, createBlock, vShow, createStaticVNode } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { initSwiperTextAnim, mediaType, sendGA, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { IconVideoPlay, IconVideoPause, IconMute, IconAuto, _export_sfc } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1 = { class: "home_banner_wrapper swiper-wrapper" };
 const _hoisted_2 = ["data-index"];
 const _hoisted_3 = { class: "banner-slide-source" };

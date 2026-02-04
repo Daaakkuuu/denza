@@ -1,6 +1,6 @@
-import { defineComponent, ref, onMounted, Swiper, Navigation, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, normalizeClass, toDisplayString, createVNode, createCommentVNode, Pagination, gsapWithCSS, ScrollTrigger, onUnmounted, withDirectives, vShow, nextTick, computed, createBlock, resolveDynamicComponent } from "/static_material/denza/overseas-public/js/vendor.js";
-import { sendGA, mediaType, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { IconSwiperEllipticalArrowRight, _export_sfc, IconSwiperRoundedArrowLeft, IconSwiperRoundedArrowRight } from "/static_material/denza/overseas-public/js/components.js";
+import { defineComponent, ref, onMounted, Swiper, Navigation, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, normalizeClass, toDisplayString, createVNode, createCommentVNode, Pagination, gsapWithCSS, ScrollTrigger, onUnmounted, withDirectives, vShow, nextTick, computed, createBlock, resolveDynamicComponent } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { sendGA, mediaType, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { IconSwiperEllipticalArrowRight, _export_sfc, IconSwiperRoundedArrowLeft, IconSwiperRoundedArrowRight } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$2 = { class: "pagination flex flex-center" };
 const _hoisted_2$1 = ["onClick"];
 const _hoisted_3$1 = { class: "swiper-wrapper" };

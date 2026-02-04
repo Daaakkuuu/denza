@@ -1,6 +1,6 @@
-import { initSwiperTextAnim, initCardScrollAnim, sendGA, initTextAnim, mediaType, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { defineComponent, ref, onMounted, Swiper, Navigation, Pagination, onUnmounted, createElementBlock, openBlock, createBaseVNode, createCommentVNode, Fragment, renderList, normalizeClass, toDisplayString, createVNode, normalizeStyle, gsapWithCSS, ScrollTrigger, computed, watch, withCtx, ElDrawer, createBlock, resolveDynamicComponent } from "/static_material/denza/overseas-public/js/vendor.js";
-import { IconArrowRightEu, _export_sfc, IconViewMore, IconCloseDrawer } from "/static_material/denza/overseas-public/js/components.js";
+import { initSwiperTextAnim, initCardScrollAnim, sendGA, initTextAnim, mediaType, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, ref, onMounted, Swiper, Navigation, Pagination, onUnmounted, createElementBlock, openBlock, createBaseVNode, createCommentVNode, Fragment, renderList, normalizeClass, toDisplayString, createVNode, normalizeStyle, gsapWithCSS, ScrollTrigger, computed, watch, withCtx, ElDrawer, createBlock, resolveDynamicComponent } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { IconArrowRightEu, _export_sfc, IconViewMore, IconCloseDrawer } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$1 = ["id"];
 const _hoisted_2$1 = { class: "swiper-wrapper" };
 const _hoisted_3$1 = ["data-index"];

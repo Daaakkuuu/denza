@@ -1,6 +1,6 @@
-import { initCardScrollAnim, sendGA, mediaType, mountComponents } from "/static_material/denza/overseas-public/js/utils.js";
-import { defineComponent, ref, onMounted, watch, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, toDisplayString, createVNode, ElDialog, withCtx, Swiper, Pagination, Navigation, computed, createBlock, resolveDynamicComponent } from "/static_material/denza/overseas-public/js/vendor.js";
-import { _export_sfc } from "/static_material/denza/overseas-public/js/components.js";
+import { initCardScrollAnim, sendGA, mediaType, mountComponents } from "https://denzabahrain.com/static_material/denza/overseas-public/js/utils.js";
+import { defineComponent, ref, onMounted, watch, createElementBlock, openBlock, createBaseVNode, Fragment, renderList, toDisplayString, createVNode, ElDialog, withCtx, Swiper, Pagination, Navigation, computed, createBlock, resolveDynamicComponent } from "https://denzabahrain.com/static_material/denza/overseas-public/js/vendor.js";
+import { _export_sfc } from "https://denzabahrain.com/static_material/denza/overseas-public/jshttps://denzabahrain.com/components.js";
 const _hoisted_1$2 = ["src"];
 const _hoisted_2 = ["src", "onClick"];
 const _hoisted_3 = { class: "text-content" };
